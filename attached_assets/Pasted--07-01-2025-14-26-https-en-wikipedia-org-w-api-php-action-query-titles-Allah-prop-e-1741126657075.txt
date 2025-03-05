@@ -1,0 +1,51 @@
+[07-01-2025 14:26] 𝙰𝚊𝚜𝚑𝚒𝚏: https://en.wikipedia.org/w/api.php?action=query&titles=Allah&prop=extracts&format=json
+[07-01-2025 14:26] 𝙰𝚊𝚜𝚑𝚒𝚏: https://github.com/mudroljub/wikipedia-api-docs
+[07-01-2025 14:32] 𝙰𝚊𝚜𝚑𝚒𝚏: https://en.wikipedia.org/w/api.php?action=opensearch&format=json&search=Ronaldo
+[07-01-2025 14:32] 𝙰𝚊𝚜𝚑𝚒𝚏: https://en.wikipedia.org/w/api.php?action=opensearch&format=json&search=Cristiano+Ronaldo
+[07-01-2025 14:35] 𝙰𝚊𝚜𝚑𝚒𝚏: 1. Text and Content API Calls
+Querying Information about Cristiano Ronaldo:
+plaintext
+Copy code
+https://en.wikipedia.org/w/api.php?action=query&prop=extracts&format=json&titles=Cristiano_Ronaldo&exintro=1
+This fetches an introductory text (extracted content) about Cristiano Ronaldo from Wikipedia.
+
+Searching for Cristiano Ronaldo:
+plaintext
+Copy code
+https://en.wikipedia.org/w/api.php?action=opensearch&format=json&search=Cristiano+Ronaldo
+This performs a search for "Cristiano Ronaldo" and returns search results.
+
+2. Image API Calls
+Fetching an Image of Cristiano Ronaldo:
+plaintext
+Copy code
+https://commons.wikimedia.org/w/api.php?action=query&format=json&titles=File:Cristiano_Ronaldo_2018.jpg&prop=imageinfo&iiprop=url
+This fetches image data for the image titled "Cristiano_Ronaldo_2018.jpg" and returns the image URL.
+
+Uploading an Image (e.g., New Image for Ronaldo):
+plaintext
+Copy code
+https://commons.wikimedia.org/w/api.php?action=upload&format=json&file=File:Ronaldo_New_Image.jpg
+This API would be used to upload an image to Wikimedia Commons (authentication required).
+
+3. Video API Calls
+Fetching Video Related to Cristiano Ronaldo:
+plaintext
+Copy code
+https://commons.wikimedia.org/w/api.php?action=query&format=json&titles=File:Cristiano_Ronaldo_Interview.mp4&prop=imageinfo&iiprop=url
+This API call would fetch the video file related to Cristiano Ronaldo from Wikimedia Commons.
+
+4. Audio API Calls
+Fetching Audio File Related to Cristiano Ronaldo:
+plaintext
+Copy code
+https://commons.wikimedia.org/w/api.php?action=query&format=json&titles=File:Cristiano_Ronaldo_Speech.ogg&prop=imageinfo&iiprop=url
+This fetches the audio file related to Cristiano Ronaldo from Wikimedia Commons.
+
+5. Search Translations
+Search Translations of Cristiano Ronaldo in Other Languages:
+plaintext
+Copy code
+https://en.wikipedia.org/w/api.php?action=query&format=json&titles=Cristiano_Ronaldo&prop=langlinks
+This fetches the translations of the "Cristiano Ronaldo" page in different languages.
+[07-01-2025 14:40] 𝙰𝚊𝚜𝚑𝚒𝚏: https://en.wikipedia.org/w/rest.php/v1/page/Earth
