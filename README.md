@@ -1,5 +1,5 @@
 
-# Gemini Thoughts Assistant
+# Wiki AI Agent
 
 A chatbot application that integrates Google's Gemini API with MediaWiki API (Wikipedia) to provide comprehensive, transparent and explainable AI responses with chain-of-thought reasoning capabilities.
 
@@ -16,7 +16,7 @@ A chatbot application that integrates Google's Gemini API with MediaWiki API (Wi
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone [<repository-url>](https://github.com/aashif000/Wiki_AI_Agent/master/)
 cd gemini-thoughts-assistant
 ```
 
